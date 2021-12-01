@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-one {
+  font-family: "Ubuntu", sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-two {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-bg {
+  background-color: rgb(34, 32, 32);
 }
-
-.App-link {
-  color: #61dafb;
+.custom-bg2 {
+  background-color: #3c3e41;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html {
+  scroll-behavior: smooth;
 }
+/* .svg-icon svg {
+  display: none;
+  transition: ease-in-out 500;
+}
+.custom-bg:hover .svg-icon svg {
+  display: block;
+} */
+/* 
+transform hover:-translate-y-1 hover:scale-110 
+transition duration-500 ease-in-out
+ */

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Web Development",
+    "img": "https://i.ibb.co/HxJh791/web-development.png",
+    "description": "I provide web development sevice that is nesscessery for your business"
+  },
+  {
+    "name": "App Development",
+    "img": "https://i.ibb.co/mbxp6jZ/app-development.png",
+    "description": "I provide app development sevice that is nesscessery for your business"
+  },
+  {
+    "name": "Business Strategy",
+    "img": "https://i.ibb.co/Q658GPC/analysis.png",
+    "description": "I provide business strategy sevice that is nesscessery for your business"
+  }
+]
