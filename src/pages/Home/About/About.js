@@ -6,10 +6,10 @@ const About = () => {
       <h2 className="text-center text-4xl text-red-500 font-mono my-8">
         About Me
       </h2>
-      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1">
         <div className="flex justify-center">
           <img
-            className=" mx-2 md:mx-4"
+            className=" mx-2 md:mx-4 h-screen"
             src="https://i.ibb.co/VCvxSbn/logo.jpg"
             alt=""
           />
@@ -35,6 +35,20 @@ const About = () => {
               <p>Web development</p>
               <p>Problem Solving</p>
               <p>Graphics Design</p>
+            </div>
+            <br />
+            <div>
+              <h2>
+                Details about{" "}
+                <strong className="text-red-500">Mahmudul haque Qudrati</strong>
+              </h2>
+              <br />
+              <p>
+                <strong>Mahmudul Haque Qudrati</strong> was born in 2001 in
+                Habiganj. He has completed HSC 2020 and web development course
+                in 2021. He likes to code a lot when get free times. Travelling
+                is his best hobby and he loves to explore a lot.{" "}
+              </p>
             </div>
           </div>
         </div>

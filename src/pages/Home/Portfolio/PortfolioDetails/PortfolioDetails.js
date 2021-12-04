@@ -9,7 +9,6 @@ const PortfolioDetails = () => {
       .then((res) => res.json())
       .then((data) => setPortfolio(data));
   }, []);
-  console.log(portfolio);
   const found = portfolio.find((detail) => detail.id === nameId);
   const {
     img,
@@ -51,14 +50,14 @@ const PortfolioDetails = () => {
               </a>
             </p>
             <p>
-              client code :{" "}
+              client code :
               <a href={client_code} rel="noreferrer" target="_blank" alt="live">
                 <span className="underline text-blue-500">Here</span>
               </a>
             </p>
             {server_code && (
               <p>
-                server code :{" "}
+                server code :
                 <a
                   href={server_code}
                   rel="noreferrer"

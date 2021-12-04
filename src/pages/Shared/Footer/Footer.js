@@ -8,7 +8,9 @@ const Footer = () => {
         <div className="text-center">
           <img className="w-24 mx-auto" src={logo} alt="logo" />
           <div className="text-center font-mono my-4">
-            <h2 className="uppercase text-2xl">mahmudul haque qudrati</h2>
+            <strong className="uppercase text-2xl">
+              mahmudul haque qudrati
+            </strong>
             <p>junior web developer</p>
             <p className="font-sans">email: mahmud.qudrati@gmail.com</p>
           </div>

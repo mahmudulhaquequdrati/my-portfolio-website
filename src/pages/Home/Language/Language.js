@@ -8,14 +8,14 @@ AOS.init();
 
 const Language = () => {
   return (
-    <>
+    <div className="relative">
       <div className="text-center text-4xl font-bold mb-8 text-red-600">
         <h2>Language I know</h2>
       </div>
       <div
         data-aos="fade-down"
         data-aos-duration="2000"
-        className="mx-0 md:mx-4  text-center grid lg:mx-24 grid-cols-2 lg:grid-cols-4 md:grid-cols-4 z-auto"
+        className="mx-0  text-center grid lg:mx-24 grid-cols-2 lg:grid-cols-4 md:grid-cols-2 z-auto"
       >
         <div className="">
           <h2>HTML</h2>
@@ -34,7 +34,7 @@ const Language = () => {
           <CircleProgress percentage={80} strokeWidth={12} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

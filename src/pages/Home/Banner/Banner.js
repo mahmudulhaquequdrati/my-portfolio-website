@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import banner from "../../../images/banner.png";
 
 const Banner = () => {
   return (
@@ -13,8 +14,7 @@ const Banner = () => {
             </h2>
 
             <h2 className="font-mono text-3xl lg:text-4xl  font-bold py-4">
-              {" "}
-              a{" "}
+              a
               <Typical
                 className="font-mono text-3xl lg:text-4xl  font-bold py-4"
                 steps={[
@@ -35,15 +35,17 @@ const Banner = () => {
               something new by jumping on it to discover.
             </p>
           </div>
-          <a
-            href="https://drive.google.com/file/d/1wA_cxD9SxnUDLSJyid0GkHGZw6zrD1kR/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-6 py-3 rounded-lg shadow-lg mt-4 bg-purple-700">
+
+          <button className="px-6 py-3 rounded-lg shadow-lg mt-4 bg-purple-700">
+            <a
+              href="https://drive.google.com/file/d/1wA_cxD9SxnUDLSJyid0GkHGZw6zrD1kR/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               Download Resume
-            </button>
-          </a>
+            </a>
+          </button>
+
           <div className="mt-8">
             <div>
               <p className="uppercase text-md font-mono text-gray-400">
@@ -83,11 +85,11 @@ const Banner = () => {
           </div>
         </div>
         <div className="flex justify-center order-1">
-          <div className="mt-2">
-            <div className="mt-2">
+          <div className="mt-2 flex items-center">
+            <div className="mt-2 ">
               <img
-                className="lg:h-screen -mt-8 md:h-full border-b-2 lg:border-b-0 md:border-b-0 border-gray-700 shadow-lg "
-                src="https://rainbowit.net/html/inbio/assets/images/slider/banner-01.png"
+                className="lg:h-full -mt-8 md:h-full border-b-2 lg:border-b-0 md:border-b-0 border-gray-700 sm:px-12 w-auto sm:w-5/6 mx-auto px-8 lg:px-4 md:px-4"
+                src={banner}
                 alt=""
               />
             </div>
